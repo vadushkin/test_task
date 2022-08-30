@@ -38,7 +38,7 @@ MIDDLEWARE = [
     "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
-ROOT_URLCONF = 'admitlte3.urls'
+ROOT_URLCONF = 'adminlte3.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'admitlte3.wsgi.application'
+WSGI_APPLICATION = 'adminlte3.wsgi.application'
 
 # DATABASES = {
 #     'default': {
@@ -100,6 +100,9 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 

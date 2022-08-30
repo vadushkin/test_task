@@ -7,7 +7,7 @@ from .models import Tag, News
 
 
 def index(requests):
-    return render(requests, 'admin_panel/index.html', context={'title': 'Главная'})
+    return render(requests, 'admin_panel/admin_index.html', context={'title': 'Главная'})
 
 
 def add_products(requests):
