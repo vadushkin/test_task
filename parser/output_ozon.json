@@ -1,0 +1,151 @@
+[
+  {
+    "id": 401,
+    "slug": "uprostili-prodazhu-tovarov-iz-osobyh-kategorij",
+    "date": "2022-08-29T14:00:00.000Z",
+    "title": "Упростили продажу товаров из особых категорий",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "Документы",
+        "color": "#FFFBEA"
+      },
+      {
+        "name": "Договор",
+        "color": "#B7E5FF"
+      },
+      {
+        "name": "Контроль качества",
+        "color": "#C5F6FE"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "slug": "fbs-i-realfbs-izmenili-mehaniku-blokirovok",
+    "date": "2022-08-25T13:45:00.000Z",
+    "title": "FBS и realFBS: изменили механику блокировок",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "FBS",
+        "color": "#A5F1BB"
+      },
+      {
+        "name": "realFBS",
+        "color": "#E5EFFF"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "slug": "vhod-v-akkaunt-uprostili-i-sdelali-eshyo-nadyozhnee",
+    "date": "2022-08-22T16:00:00.000Z",
+    "title": "Вход в аккаунт: упростили и сделали ещё надёжнее",
+    "highlight": false,
+    "theme": []
+  },
+  {
+    "id": 396,
+    "slug": "fbs-i-realfbs-mozhno-uvelichit-srok-sborki-zakazov",
+    "date": "2022-08-22T15:00:00.000Z",
+    "title": "FBS и realFBS: можно увеличить срок сборки заказов",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "FBS",
+        "color": "#A5F1BB"
+      },
+      {
+        "name": "realFBS",
+        "color": "#E5EFFF"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "slug": "prilozhenie-chto-novogo-za-mesyac-dlya-ios-i-android",
+    "date": "2022-08-22T09:00:00.000Z",
+    "title": "Приложение: что нового за месяц для iOS и Android",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "Приложение",
+        "color": "#A5F1BB"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "slug": "fbo-menyaem-domashnie-sklady-i-obnovlyaem-matricu-klasterov",
+    "date": "2022-08-18T16:30:00.000Z",
+    "title": "FBO: меняем домашние склады и обновляем матрицу кластеров",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "FBO",
+        "color": "#CBDEFF"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "slug": "novaya-versiya-dogovora-vnesli-mini-pravki",
+    "date": "2022-08-17T15:30:00.000Z",
+    "title": "Новая версия договора: внесли мини-правки",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "FBO",
+        "color": "#CBDEFF"
+      },
+      {
+        "name": "Договор",
+        "color": "#B7E5FF"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "slug": "fbo-uprostili-postavku-markirovannyh-tovarov",
+    "date": "2022-08-17T15:00:00.000Z",
+    "title": "FBO: упростили поставку маркированных товаров",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "FBO",
+        "color": "#CBDEFF"
+      },
+      {
+        "name": "Маркировка",
+        "color": "#FFE7EE"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "slug": "otsrochka-mozhno-sekonomit-eshyo-bolshe",
+    "date": "2022-08-17T15:00:00.000Z",
+    "title": "Отсрочка: можно сэкономить ещё больше",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "Финансы",
+        "color": "#E9EEF1"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "slug": "novoe-v-razdele-rejtingi-i-zayavkah-na-skidku",
+    "date": "2022-08-16T15:00:00.000Z",
+    "title": "Новое в разделе «Рейтинги» и заявках на скидку",
+    "highlight": false,
+    "theme": [
+      {
+        "name": "Аналитика",
+        "color": "#FFF2A6"
+      }
+    ]
+  }
+]
