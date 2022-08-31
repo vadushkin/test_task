@@ -15,7 +15,7 @@ def add_products(requests):
     with open('admin_panel/jsons/output_ozon.json', 'r') as file:
         text = json.load(file)
         for i in text:
-            n = News.objects.create(name=i['title'], description=i['url'])
+            n = News.objects.create(name=i['title'], description=i['url'], created_at=i['date'])
             for j in i['theme']:
                 if not Tag.objects.filter(name=j['name']):
                     Tag.objects.create(name=j['name'], slug=slugify(j['name']))
@@ -23,7 +23,7 @@ def add_products(requests):
     with open('admin_panel/jsons/output_yandex.json', 'r') as file:
         text = json.load(file)
         for i in text:
-            n = News.objects.create(name=i['title'], description=i['url'])
+            n = News.objects.create(name=i['title'], description=i['url'], created_at=i['date'])
             for j in i['tags']:
                 if not Tag.objects.filter(name=j[1:]):
                     Tag.objects.create(name=j[1:], slug=slugify(j[1:]))

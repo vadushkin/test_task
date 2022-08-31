@@ -15,7 +15,7 @@ class News(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(blank=True)
     tags = models.ManyToManyField(Tag, related_name="post")
-    created_at = models.DateField(auto_now_add=True)
+    created_at = models.CharField(max_length=50)
 
     def __str__(self):
         return f'{self.name}'

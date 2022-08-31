@@ -28,10 +28,13 @@ def parser_yandex(url: str) -> None:
         for a in div_a:
             tags.append(a.text)
 
+        date = soup.find('time', class_='news-info__published-date').text
+
         data = {
                    'title': title,
                    'url': url,
                    'tags': tags,
+                   'date': date,
                },
 
         with open('output_yandex.json', 'a') as for_write:
@@ -54,8 +57,8 @@ def parser_ozon(url: str) -> None:
 
 
 def main():
-    parser_ozon('https://seller.ozon.ru/content-api/news/?_limit=10')
     parser_yandex('https://market.yandex.ru/partners/news')
+    # parser_ozon('https://seller.ozon.ru/content-api/news/?_limit=10')
 
 
 if __name__ == '__main__':
