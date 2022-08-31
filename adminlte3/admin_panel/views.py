@@ -3,7 +3,8 @@ import json
 from django.shortcuts import render, redirect
 from slugify import slugify
 
-from .models import Tag, News
+from .models import News
+from .models import Tag
 
 
 def index(requests):
